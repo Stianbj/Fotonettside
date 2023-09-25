@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    margin: 0;
+    height: 100%;
+    background-color: rgb(109, 150, 192)
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    margin: 0;
+    }
+header {
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 3%;
+    border-bottom-style: solid;
+    border-color: white;
+    border-width: 50%;
+}   
+p{                                                                                                                           
+    width: 80% ;                                                              
+    margin: 0 auto;                                                              
+    font-size: 1.5rem;                                                              
+    color: white;                                                                                                                           
+    text-align: center; 
+    line-height:0.8; 
+    margin-bottom: 5%;  
+    margin-top: 3%;                                                                                                      
+}                  
+h2{
+    background-color: rgb(109, 150, 192);
+    width: 80%;
+    margin: 0 auto;
+    font-size: 27px;
+    color: white;
+    margin-top: 2%;
+    text-align: center;
+}                        
+img{                                                              
+    display: flex;                                                                                                                           
+    width: 700px;                                                              
+    height: 0 auto  ;                                                              
+    margin: 0 auto;                                                              
+    margin-top: 0;                                         
+   }                                                              
+a:hover{                                                              
+    color: black;                                                              
+}                                                              
+a{                                                              
+    color: white;                                                                                                              
+}                                                              
+header ul {                                                              
+    list-style-type: none;                                                              
+    margin: 0;                                                              
+    padding: 0;                                                              
+    overflow: hidden;                                                              
+    top: 0;                                                              
+    width: 100%;                                                              
+    background-color: 0000000;                                                              
+}                                                              
+                                                              
+header li {                                                              
+    display: inline;                                                              
+    float: left;                                                              
+    font-size: 1.2rem;                                                              
+}                                                              
+                                                              
+header li:last-child {                                                              
+    border-right: none;                                                              
+    float: right;                                                              
+}                                                              
+                                                              
+                                                               
+                                                              
+header li a {                                                              
+    display: block;                                                              
+    color: white;                                                              
+    text-align: center;                                                              
+    padding: 14px 16px;                                                              
+    text-decoration:  none;                                                              
+}      
+
+nav{
+    margin-bottom: 3%
+}
+article{
+    border-bottom-style: solid;
+    border-color: white;
+    width: 50%;
+    margin: auto;
+}
